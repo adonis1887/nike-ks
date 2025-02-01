@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rreth Nesh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.jpg" alt="Logoja ime" width="100" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Kryefaqja</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produktet.html">Produktet</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">Rreth Nesh</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <form class="d-flex me-3">
+                        <input id="search-input" class="form-control me-2" type="search" placeholder="Kërko produkte..." aria-label="Search">
+                    </form>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                            <i class="fas fa-shopping-cart"></i> (<span id="cart-count">0</span>)
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" id="cart-dropdown">
+                            <li><a class="dropdown-item" href="#">Shporta është bosh</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Përmbajtja e faqes "Rreth Nesh" -->
+    <main class="container my-5">
+        <section id="about">
+            <h1 class="text-center mb-5">Rreth Nesh</h1>
+
+            <!-- Seksioni 1: Prezantimi -->
+            <div class="mb-5">
+                <h2>Kush jemi ne?</h2>
+                <p>Mirësevini në website-in tonë! Ne jemi një kompani e fokusuar në ofrimin e produkteve dhe shërbimeve më të mira për klientët tanë. Që nga themelimi i kompanisë sonë, ne kemi qenë të përkushtuar për të sjellë inovacion dhe cilësi në çdo aspekt të punës sonë.</p>
+                <p>Kompania jonë u themelua në vitin 2020 me qëllimin që të ndryshojë mënyrën se si njerëzit blejnë dhe përdorin produktet e tyre të përditshme. Me një ekip të pasionuar dhe të kualifikuar, ne kemi arritur të ndërtojmë një markë të besueshme dhe të dashur nga klientët.</p>
+            </div>
+
+            <!-- Seksioni 2: Historia -->
+            <div class="mb-5">
+                <h2>Historia Jonë</h2>
+                <p>Kompania jonë filloi si një ide e vogël midis dy miqve që kishin një pasion të përbashkët për teknologjinë dhe inovacionin. Në fillim, ne ofronim vetëm disa produkte, por me kalimin e kohës, ne kemi zgjeruar gamën tonë të shërbimeve dhe produktive.</p>
+                <p>Në vitin 2022, ne hapëm zyrën tonë të parë fizike, duke filluar një kapitull të ri në historinë tonë. Sot, ne operojmë në më shumë se 10 vende dhe kemi një ekip prej më shumë se 50 punonjësish të përkushtuar.</p>
+            </div>
+
+            <!-- Seksioni 3: Vizioni dhe Misioni -->
+            <div class="mb-5">
+                <h2>Vizioni dhe Misioni</h2>
+                <p><strong>Vizioni ynë</strong> është të jemi lider në treg duke ofruar produkte unike dhe shërbime të shkëlqyera. Ne aspirojmë të ndryshojmë mënyrën se si njerëzit ndjejnë dhe përdorin teknologjinë në jetën e tyre të përditshme.</p>
+                <p><strong>Misioni ynë</strong> është të kënaqim nevojat e klientëve tanë në çdo hap. Ne besojmë në ndërtimin e marrëdhënieve të gjata dhe të besueshme me klientët tanë, duke ofruar produkte dhe shërbime që tejkalojnë pritjet e tyre.</p>
+            </div>
+
+            <!-- Seksioni 4: Vlerat tona -->
+            <div class="mb-5">
+                <h2>Vlerat tona</h2>
+                <ul>
+                    <li><strong>Cilësia:</strong> Ne jemi të përkushtuar për të ofruar produktet dhe shërbimet më cilësore në treg.</li>
+                    <li><strong>Inovacioni:</strong> Ne gjithmonë kërkojmë mënyra të reja për të përmirësuar ofertat tona.</li>
+                    <li><strong>Besueshmëria:</strong> Klientët tanë mund të mbështeten tek ne për zgjidhje të besueshme dhe të qëndrueshme.</li>
+                    <li><strong>Përkushtimi ndaj klientit:</strong> Ne vendosim klientët tanë në qendër të gjithçkaje që bëjmë.</li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h2>Vendndodhja Jonë</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.942240836928!2d21.15621531546683!3d42.66238777916753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f3a3a7e5a3f%3A0x1a5b0b0b0b0b0b0b!2sPrishtina%2C%20Kosovo!5e0!3m2!1sen!2s!4v1633020000000!5m2!1sen!2s"
+                    width="100%"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            <!-- Seksioni 5: Ekipi ynë -->
+            <div class="mb-5">
+                <h2>Ekipi ynë</h2>
+                <p>Ekipi ynë përbëhet nga profesionistë të talentuar dhe të pasionuar, të cilët punojnë çdo ditë për të sjellë produktet dhe shërbimet më të mira për klientët tanë. Ne besojmë në fuqinë e punës në ekip dhe në ndarjen e njohurive për të arritur suksesin.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="image/adonis.jpg" class="card-img-top" alt="Anëtar i ekipit 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Adonis Halimi</h5>
+                                <p class="card-text">CEO dhe Themelues</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="image/plator.jpg" class="card-img-top" alt="Anëtar i ekipit 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Plator Krasniqi</h5>
+                                <p class="card-text">Drejtor Teknik</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="image/mark.jpg" class="card-img-top" alt="Anëtar i ekipit 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Mark</h5>
+                                <p class="card-text">Drejtore e Marketingut</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 NIKE-KS. Të gjitha të drejtat e rezervuara.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
